@@ -1,3 +1,7 @@
-from django.contrib import admin
+# dashboard/admin.py
 
-# Register your models here.
+from django.contrib import admin
+from .models import MaintenanceRequest, MaintenanceRecord
+
+admin.site.register(MaintenanceRequest)
+admin.site.register(MaintenanceRecord)
