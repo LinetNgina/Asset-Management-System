@@ -5,6 +5,8 @@ class MaintenanceRecord(models.Model):
     category = models.CharField(max_length=100)
     asset_id = models.CharField(max_length=50)
     comments = models.TextField()
+    return_item = models.CharField(max_length=3, choices=[('yes', 'Yes'), ('no', 'No')]) 
+    default='no' 
 
     def __str__(self):
         return f"{self.category} - {self.asset_id}"
