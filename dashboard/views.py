@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from .forms import MaintenanceForm
 from .models import MaintenanceRecord, MaintenanceRequest
-from .models import YourModel  # Import your model
+
 
 
 def maintenance_view(request):
@@ -31,7 +31,6 @@ def database_contents_view(request):
         'maintenance_requests': maintenance_requests
     })
 
-
 def submit_maintenance_form(request):
     if request.method == 'POST':
         form = MaintenanceForm(request.POST)
@@ -40,12 +39,14 @@ def submit_maintenance_form(request):
             category = form.cleaned_data['category']
             asset_id = form.cleaned_data['asset_id']
             comments = form.cleaned_data['comments']
+            return_item = form.cleaned_data['return_item']  # Extract the return_item data
 
             # Save data to MaintenanceRecord model
             maintenance_record = MaintenanceRecord.objects.create(
                 category=category,
                 asset_id=asset_id,
-                comments=comments
+                comments=comments,
+                return_item=return_item  # Save the return_item data
             )
 
             # Example of saving related MaintenanceRequest (if applicable)
