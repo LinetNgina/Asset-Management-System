@@ -1,13 +1,12 @@
 # Asset Management System
 ## A Django-based application to manage asset lending, tracking, and maintenance. This system allows users to add new assets, lend assets in bulk or individually, track asset usage, and handle returns with conditions.
 
-### Table of Contents
+## Table of Contents
 ### Features
 ### Installation
 ### Usage
 ### Contributing
 ### License
-### Features
 ### Asset Management: Add, edit, and lend assets.
 ### Lending System: Lend assets in bulk or individually with tracking of quantities.
 ### Tracking: View lent assets and return them with conditions (good/bad).
@@ -29,7 +28,7 @@ bash `git clone [https://github.com/LinetNgina/Asset-Management-System.git]`
     bash `python -m venv venv
     source venv/bin/activate 
     venv\Scripts\activate`
-On windows use 
+On windows use bash `venv\Scripts\activate`
 4. Apply migrations:
    bash `python manage.py makemigrations`
    bash `python manage.py migrate`
