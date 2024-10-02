@@ -2,10 +2,10 @@
 ## A Django-based application to manage asset lending, tracking, and maintenance. This system allows users to add new assets, lend assets in bulk or individually, track asset usage, and handle returns with conditions.
 
 ## Table of Contents
-*Features
-*Installation
-*Usage
-*Contributing
+*[Features](#Features)
+*[Installation](#Installation)
+*[Usage](#Usage)
+*[Contributing](#Contributing)
 ## Features
 ### Asset Management: Add, edit, and lend assets.
 ### Lending System: Lend assets in bulk or individually with tracking of quantities.
