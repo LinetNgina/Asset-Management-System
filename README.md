@@ -7,6 +7,7 @@
 ### Usage
 ### Contributing
 ### License
+## Features
 ### Asset Management: Add, edit, and lend assets.
 ### Lending System: Lend assets in bulk or individually with tracking of quantities.
 ### Tracking: View lent assets and return them with conditions (good/bad).
@@ -38,3 +39,21 @@ On windows use bash `venv\Scripts\activate`
 
 6.Access the application at:
    bash `http://127.0.0.1:8000/.`
+## Usage
+Adding New Assets
+Navigate to the Home page and use the form to add new assets. Each asset will have an ID, name, quantity, and other relevant details.
+
+Lending Assets
+Use the Track page to lend assets. Select the asset, specify the quantity, and lend it either individually or in bulk.
+
+Returning Assets
+Click on the links in the 'Asset Taken' section on the Home page to access the return form. Specify the condition (good/bad) of the returned assets.
+
+Maintenance
+Use the Maintenance page to manage asset maintenance schedules and logs. Track maintenance activities and update asset conditions as necessary.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. Make sure to include tests for new features or bug fixes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
