@@ -20,21 +20,22 @@
 3. pip (Python package installer)
 ## Steps
 1. Clone the repository:
+bash `git clone [https://github.com/LinetNgina/Asset-Management-System.git]`
 
-bash `git clone https://github.com/AbubakarMohamed/AssetManagement.git`
-2. bash `cd asset-management-system`
+2. Access the cloned directory:
+   bash `cd asset-management-system`
+
 3. Create and activate a virtual environment:
-
-bash `python -m venv venv
-source venv/bin/activate 
-venv\Scripts\activate`
+    bash `python -m venv venv
+    source venv/bin/activate 
+    venv\Scripts\activate`
 On windows use 
 4. Apply migrations:
-
-bash `python manage.py makemigrations`
-bash `python manage.py migrate`
+   bash `python manage.py makemigrations`
+   bash `python manage.py migrate`
 
 5. Run the development server:
-bash `python manage.py runserver`
+   bash `python manage.py runserver`
 
-6.Access the application at bash `http://127.0.0.1:8000/.`
+6.Access the application at:
+   bash `http://127.0.0.1:8000/.`
