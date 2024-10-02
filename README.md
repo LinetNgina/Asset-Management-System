@@ -2,11 +2,10 @@
 ## A Django-based application to manage asset lending, tracking, and maintenance. This system allows users to add new assets, lend assets in bulk or individually, track asset usage, and handle returns with conditions.
 
 ## Table of Contents
-### Features
-### Installation
-### Usage
-### Contributing
-### License
+*Features
+*Installation
+*Usage
+*Contributing
 ## Features
 ### Asset Management: Add, edit, and lend assets.
 ### Lending System: Lend assets in bulk or individually with tracking of quantities.
@@ -55,5 +54,3 @@ Use the Maintenance page to manage asset maintenance schedules and logs. Track m
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Make sure to include tests for new features or bug fixes.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
